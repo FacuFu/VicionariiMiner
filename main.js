@@ -1,5 +1,5 @@
-import { datosOro } from "./oro.js"
-export {minarCobre,minarOro,minarHierro}
+import { datosOro } from "./Minerals/oro"
+
 var datosDinero = {
     dinero: 0
 }
@@ -48,4 +48,6 @@ function venderOro(){
     document.getElementById("dineroEnCuenta").innerHTML = "Dinero: $" + datosDinero.dinero
     document.getElementById("cantidadOro").innerHTML ="Cantidad de Oro: " + datosOro.oro
 }
+
+export {minarOro, venderOro, minarCobre, venderCobre, minarHierro, venderHierro}
 

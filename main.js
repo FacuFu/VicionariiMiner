@@ -1,5 +1,5 @@
 var datosDinero = {
-    dinero: 0
+    dinero: 1
 }
 
 var datosCobre = {

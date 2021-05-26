@@ -1,5 +1,3 @@
-import { datosOro } from "./Minerals/oro"
-
 var datosDinero = {
     dinero: 0
 }
@@ -9,10 +7,14 @@ var datosCobre = {
     cobrePorClick: 0,
     cobrePorClickCosto: null
 }
-
 var datosHierro = {
     hierro: 0,
     hierroPorClick: 0,
+    hierroPorClickCosto: null
+}
+var datosOro = {
+    oro: 0,
+    hierroPorClick: 1,
     hierroPorClickCosto: null
 }
 
@@ -49,5 +51,4 @@ function venderOro(){
     document.getElementById("cantidadOro").innerHTML ="Cantidad de Oro: " + datosOro.oro
 }
 
-export {minarOro, venderOro, minarCobre, venderCobre, minarHierro, venderHierro}
 
